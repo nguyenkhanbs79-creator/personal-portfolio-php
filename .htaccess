@@ -1,8 +1,18 @@
 Options -Indexes
+<<<<<<< ours
 
 RewriteEngine On
 RewriteBase /
 
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
+=======
+RewriteEngine On
+RewriteBase /
+
+RewriteCond %{REQUEST_FILENAME} -f [OR]
+RewriteCond %{REQUEST_FILENAME} -d
+RewriteRule ^ - [L]
+
+>>>>>>> theirs
 RewriteRule ^(.+)$ index.php?page=$1 [QSA,L]

@@ -28,7 +28,11 @@
                 <div class="card shadow-sm h-100">
                     <div class="card-body p-4 p-lg-5">
                         <h2 class="section-title h3 mb-4">Gửi tin nhắn</h2>
+<<<<<<< ours
                         <form id="contactForm" class="needs-validation" novalidate data-endpoint="<?= escape(base_url('actions/contact.php')) ?>">
+=======
+                        <form id="contactForm" class="needs-validation" novalidate data-endpoint="<?= e(url('actions/contact.php')) ?>">
+>>>>>>> theirs
                             <div class="mb-3">
                                 <label for="name" class="form-label">Họ và tên</label>
                                 <input type="text" class="form-control" id="name" name="name" placeholder="Nguyễn Văn A" required>

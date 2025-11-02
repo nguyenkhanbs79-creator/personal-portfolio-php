@@ -1,5 +1,6 @@
 <?php
 
+<<<<<<< ours
 return [
     'site_name' => 'Hoàng Quốc Việt',
     'site_title' => 'Portfolio - Hoàng Quốc Việt',
@@ -10,3 +11,16 @@ return [
     'base_url' => ''
 ];
 
+=======
+$site = [
+    'title' => 'Hoàng Quốc Việt | Portfolio',
+    'description' => 'Portfolio cá nhân của Hoàng Quốc Việt với các dự án, kỹ năng nổi bật và thông tin liên hệ chi tiết.',
+    'avatar' => '',
+];
+
+return [
+    'site' => $site,
+    'base_url' => '',
+    'cv_link' => '',
+];
+>>>>>>> theirs
